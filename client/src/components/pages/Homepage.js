@@ -68,8 +68,8 @@ export default function Album() {
             </Stack>
           </Container>
         </Box>
-       <Container sx={{ py: 8 }} maxWidth="md">
-          {/* End hero unit */}
+       {/*<Container sx={{ py: 8 }} maxWidth="md">
+          {/* End hero unit 
           <Grid container spacing={4}>
             {cards.map((card) => (
               <Grid item key={card} xs={12} sm={6} md={4}>
@@ -102,7 +102,7 @@ export default function Album() {
               </Grid>
             ))}
           </Grid>
-                  </Container>
+                  </Container> */}
       </main>
       {/* Footer */}
       <Box sx={{ bgcolor: 'background.paper', p: 40 }} component="footer">
