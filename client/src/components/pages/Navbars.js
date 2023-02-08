@@ -46,6 +46,7 @@ function ResponsiveAppBar() {
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <SchoolIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+          <Link to="/">
           <Typography
             variant="h6"
             noWrap
@@ -59,10 +60,11 @@ function ResponsiveAppBar() {
               letterSpacing: '.3rem',
               color: 'inherit',
               textDecoration: 'none',
-            }}
+            }}S
           >
             NASC
           </Typography>
+          </Link>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
