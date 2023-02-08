@@ -7,9 +7,11 @@ import SignUp  from './components/pages/SignUp'
 import SignIn from './components/pages/SignIn'
 import Homepage from './components/pages/Homepage'
 import { About  } from './components/pages/About';
+import Navbars from './components/pages/Navbars'
 function App() {
   return (
     <Router>
+        <Navbars/>
     <Navbar />
     <Routes>
         <Route exact path='/'  element={<Homepage />} />

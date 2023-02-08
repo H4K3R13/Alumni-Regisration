@@ -10,16 +10,16 @@ import Stack from '@mui/material/Stack';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
-import Link from '@mui/material/Link';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import {
+  Link
+} from 'react-router-dom';
 
 function Copyright() {
   return (
     <Typography variant="body2" color="text.secondary" align="center">
       {'Copyright © '}
-      <Link color="inherit" href="https://nasc.ac.in/">
         NASC
-      </Link>{' '}
       {new Date().getFullYear()}
       {'.'}
     </Typography>
@@ -63,11 +63,12 @@ export default function Album() {
               spacing={2}
               justifyContent="center"
             >
-              <Button variant="contained">Register</Button>
-              <Button variant="outlined">Login</Button>
+              <Link to="/SignUp"><Button variant="contained">Register</Button></Link>
+              <Link to="/SignIn"><Button variant="outlined">Login</Button></Link>
             </Stack>
           </Container>
         </Box>
+
        {/*<Container sx={{ py: 8 }} maxWidth="md">
           {/* End hero unit 
           <Grid container spacing={4}>

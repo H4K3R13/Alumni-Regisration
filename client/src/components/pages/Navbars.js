@@ -12,6 +12,12 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import SchoolIcon from '@mui/icons-material/School';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link
+} from 'react-router-dom';
 
 const pages = ['Home', 'Gallery', 'About'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
