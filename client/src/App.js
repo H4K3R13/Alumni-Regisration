@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Routes, Route}
 import SignUp  from './components/pages/SignUp'
 import SignIn from './components/pages/SignIn'
 import Homepage from './components/pages/Homepage'
-import { About  } from './components/pages/About';
+import { About  } from './components/pages/About'
 import Navbars from './components/pages/Navbars'
 function App() {
   return (
