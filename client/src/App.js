@@ -11,8 +11,8 @@ import Navbars from './components/pages/Navbars'
 function App() {
   return (
     <Router>
-        <Navbars/>
-    <Navbar />
+        <Navbars/> #Not responsive but routed
+    <Navbar/>
     <Routes>
         <Route exact path='/'  element={<Homepage />} />
         <Route path='/SignUp' element={<SignUp/>} />
